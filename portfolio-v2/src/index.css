@@ -4,12 +4,13 @@
 
 body {
   margin: 0;
-  padding-top: 60px; /* Headerにbodyが隠れないようにする */
+  padding-top: 120px; /* Headerにbodyが隠れないようにする */
+
   font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* 背景の指定 */
-  background :linear-gradient(#1168ba, #5ab4e5, white);
+  background :linear-gradient(#478ac9, #5ab4e5, white);
   background-position: center center; /* 画像を中央に配置 */
   background-repeat: no-repeat; /* 背景を繰り返さない */
   background-attachment: fixed; /* 背景を固定 */
@@ -21,3 +22,6 @@ code {
     monospace;
 }
 
+.contents {
+  margin: 0 30px;
+}

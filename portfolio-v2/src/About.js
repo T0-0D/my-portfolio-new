@@ -2,10 +2,9 @@ import './index.css';
 
 function About() {
   return (
-    <body>
-      <div>aaa</div>
-    </body>
+    <div>
+      Aboutの中身だよ
+    </div>
   );
 }
-
 export default About;

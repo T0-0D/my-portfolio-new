@@ -14,19 +14,19 @@ const HeaderNav = () => {
         <nav>
             <ul className="menu-group">
                 <li>
-                    <a href="./About.js"
+                    <a href=""
                     className="menu-item">
                         About
                     </a>
                 </li>
                 <li>
-                    <a href="./Learning.js"
+                    <a href=""
                     className="menu-item">
                         Learning
                     </a>
                 </li>
                 <li>
-                    <a href="./Music.js"
+                    <a href=""
                     className="menu-item">
                         Music
                     </a>
