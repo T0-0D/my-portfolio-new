@@ -7,7 +7,7 @@ body {
   padding-top: 100px; /* Headerにbodyが隠れないようにする */
 
   font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #4b4b4b;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -28,12 +28,15 @@ code {
 }
 
 h3 {
-  margin: 0;
-  margin-bottom: 20px;
-  padding: 0;
   font-size: 16px;
+  color: darkorange;
+}
+
+.social-group {
+  text-align: center;
 }
 
 .social-image {
   width: 60px;
+  margin: 0 30px;
 }
