@@ -1,7 +1,8 @@
 header {
     margin: 0;
-    padding: 6% 3%;
+    padding: 40px 20px;
     width: 100%;
+    height: 100px;
     /* 位置を上部に固定 */
     position: fixed;
     top: 0;
