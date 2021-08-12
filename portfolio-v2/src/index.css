@@ -4,9 +4,11 @@
 
 body {
   margin: 0;
-  padding-top: 120px; /* Headerにbodyが隠れないようにする */
+  padding-top: 100px; /* Headerにbodyが隠れないようにする */
 
   font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #4b4b4b;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* 背景の指定 */
@@ -18,10 +20,20 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 .contents {
-  margin: 0 30px;
+  margin: 0 40px;
+}
+
+h3 {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  font-size: 16px;
+}
+
+.social-image {
+  width: 60px;
 }

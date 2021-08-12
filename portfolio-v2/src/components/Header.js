@@ -12,22 +12,22 @@ const HeaderTitle = () => {
 const HeaderNav = () => {
     return(
         <nav>
-            <ul className="menu-group">
+            <ul className="header-group">
                 <li>
                     <a href=""
-                    className="menu-item">
+                    className="header-item">
                         About
                     </a>
                 </li>
                 <li>
                     <a href=""
-                    className="menu-item">
+                    className="header-item">
                         Learning
                     </a>
                 </li>
                 <li>
                     <a href=""
-                    className="menu-item">
+                    className="header-item">
                         Music
                     </a>
                 </li>
