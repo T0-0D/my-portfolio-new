@@ -26,7 +26,7 @@ const HeaderNav = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="./Music.js"
+                    <a href="../Music.js"
                     className="header-item">
                         Music
                     </a>
