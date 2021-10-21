@@ -3,8 +3,8 @@ import './Header.css'
 // 要素を分割して関数として定義
 const HeaderTitle = () => {
     return(
-    <h1 className = "title">
-        <a href="" className="title-a">OD's Portfolio</a>
+    <h1>
+        <a href="../" className="titleBig">OD's Portfolio</a>
     </h1>
     )
 }
@@ -12,22 +12,22 @@ const HeaderTitle = () => {
 const HeaderNav = () => {
     return(
         <nav>
-            <ul className="header-group">
+            <ul className="titlePages-group">
                 <li>
-                    <a href="../index.js"
-                    className="header-item">
+                    <a href="../"
+                    className="titlePages">
                         About
                     </a>
                 </li>
                 <li>
-                    <a href="../Learning.js"
-                    className="header-item">
+                    <a href="../Learning"
+                    className="titlePages">
                         Learning
                     </a>
                 </li>
                 <li>
-                    <a href="../Music.js"
-                    className="header-item">
+                    <a href="../Music"
+                    className="titlePages">
                         Music
                     </a>
                 </li>

@@ -1,13 +1,13 @@
-import './index.css';
-import Section from './components/Section.js'
-import ContentBox from './components/ContentBox.js'
+import '../index.css';
+import Section from '../components/Section.js'
+import ContentBox from '../components/ContentBox.js'
 // 画像ファイルのimport
-import Twitter from './images/Twitter.png'
-import Instagram from './images/Instagram.png'
-import Github from './images/Github.png'
-import Soundcloud from './images/Soundcloud.png'
-import Spotify from './images/Spotify.png'
-import Header from './components/Header';
+import Twitter from '../images/Twitter.png'
+import Instagram from '../images/Instagram.png'
+import Github from '../images/Github.png'
+import Soundcloud from '../images/Soundcloud.png'
+import Spotify from '../images/Spotify.png'
+
 
 const AboutText = () => {
   return (
