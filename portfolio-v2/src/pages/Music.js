@@ -1,4 +1,5 @@
 import React from 'react';
+import Iframe from 'react-iframe';
 import ReactPlayer from 'react-player';
 import '../index.css';
 import Section from '../components/Section.js';
@@ -20,10 +21,8 @@ const MusicContents2 = () => {
     <div>
       <h3>Recent Release</h3>
       <div>
-        <ReactPlayer className="SCframe"
-          url="https://soundcloud.com/royknox/waterfall-feat-ellen-louise-ncs-release"
-        />
-        </div>
+        <Iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/940645393&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" />
+      </div>
     </div>
   )
 }
