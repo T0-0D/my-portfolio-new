@@ -5,9 +5,9 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import './index.css';
 import Header from './components/Header.js'
-import About from './pages/About'
-import Learning from './pages/Learning'
-import Music from './pages/Music'
+import Home from './Home'
+import Product from './Product'
+import Music from './Music'
 
 
 
@@ -16,8 +16,8 @@ ReactDOM.render(
     <Header />
     <Router>
         <Header />
-        <Route exact path="/" component={About} />
-        <Route exact path="/Learning" component={Learning} />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/Product" component={Product} />
         <Route exact path="/Music" component={Music} />
       </Router>
   </React.StrictMode>,
