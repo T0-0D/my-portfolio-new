@@ -1,12 +1,12 @@
-import '../index.css';
-import Section from '../components/Section.js'
-import ContentBox from '../components/ContentBox.js'
+import './index.css';
+import Section from './components/Section.js'
+import ContentBox from './components/ContentBox.js'
 // 画像ファイルのimport
-import Twitter from '../images/Twitter.png'
-import Instagram from '../images/Instagram.png'
-import Github from '../images/Github.png'
-import Soundcloud from '../images/Soundcloud.png'
-import Spotify from '../images/Spotify.png'
+import Twitter from './images/Twitter.png'
+import Instagram from './images/Instagram.png'
+import Github from './images/Github.png'
+import Soundcloud from './images/Soundcloud.png'
+import Spotify from './images/Spotify.png'
 
 
 const AboutText = () => {
@@ -47,7 +47,7 @@ const Social = () => {
 }
 
 
-function About() {
+function Home() {
   return (
     <div className="contents">
       <Section name="About"/>
@@ -60,4 +60,4 @@ function About() {
     </div>
     );
 }
-export default About;
+export default Home;

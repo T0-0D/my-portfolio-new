@@ -14,19 +14,19 @@ const HeaderNav = () => {
         <nav>
             <ul className="titlePages-group">
                 <li>
-                    <a href="../"
+                    <a href="./"
                     className="titlePages">
-                        About
+                        Home
                     </a>
                 </li>
                 <li>
-                    <a href="../Learning"
+                    <a href="./Product"
                     className="titlePages">
-                        Learning
+                        Product
                     </a>
                 </li>
                 <li>
-                    <a href="../Music"
+                    <a href="./Music"
                     className="titlePages">
                         Music
                     </a>
