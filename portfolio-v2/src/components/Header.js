@@ -20,9 +20,9 @@ const HeaderNav = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="./Product"
+                    <a href="./Activities"
                     className="titlePages">
-                        Product
+                        Activities
                     </a>
                 </li>
                 <li>

@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import './index.css';
 import Header from './components/Header.js'
 import Home from './Home'
-import Product from './Product'
+import Activities from './Activities'
 import Music from './Music'
 
 
@@ -17,7 +17,7 @@ ReactDOM.render(
     <Router>
         <Header />
         <Route exact path="/" component={Home} />
-        <Route exact path="/Product" component={Product} />
+        <Route exact path="/Activities" component={Activities} />
         <Route exact path="/Music" component={Music} />
       </Router>
   </React.StrictMode>,
