@@ -10,7 +10,7 @@ import Soundcloud from './images/Soundcloud.png'
 import Spotify from './images/Spotify.png'
 
 
-const AboutText = () => {
+const About = () => {
   return (
     <div>
       <div className="block-l">
@@ -18,12 +18,12 @@ const AboutText = () => {
         <p>OD / T. Odaira</p>
       </div>
       <div className="block-r">
-        <h3>- Info</h3>
+        <h3>Info</h3>
         <p>[hundle] OD</p>
         <p>[age] 20</p>
-        <p>[born] 2001, Yokohama, Kanagawa</p>
-        <p>[who am I] CS Student, DJ, Music Creator</p>
-        <p>[things I like] Music / Movies / Coffee</p>
+        <p>[born] in 2001 / in Yokohama City, Kanagawa</p>
+        <p>[who am I] CS student at The Univ. of Aizu / DJ / Music Creator</p>
+        <p>[things I like] Music / Watching movies / Coffee / Cozy things</p>
       </div>
     </div>
   );
@@ -57,7 +57,7 @@ function Home() {
     <div className="contents">
       <Section name="About"/>
       <ContentBox>
-        <AboutText />
+        <About />
       </ContentBox>
       <Section name="Social"/>
       <ContentBox className="social-box">
