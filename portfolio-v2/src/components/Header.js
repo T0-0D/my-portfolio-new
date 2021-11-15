@@ -4,7 +4,7 @@ import './Header.css'
 const HeaderTitle = () => {
     return(
     <h1>
-        <a href="../" className="titleBig">OD's Portfolio</a>
+        <a href="../" className="titleBig">My Portfolio</a>
     </h1>
     )
 }

@@ -2,6 +2,7 @@ import './index.css';
 import Section from './components/Section.js'
 import ContentBox from './components/ContentBox.js'
 // 画像ファイルのimport
+import Profile from './images/profile.JPG'
 import Twitter from './images/Twitter.png'
 import Instagram from './images/Instagram.png'
 import Github from './images/Github.png'
@@ -12,14 +13,18 @@ import Spotify from './images/Spotify.png'
 const AboutText = () => {
   return (
     <div>
-      <h3>- Welcome to my web portfolio!</h3>
-       <p>Blief introduction of myself here!</p>
-      <h3>- Info</h3>
+      <div className="block-l">
+        <img src={Profile} className="profile-image"/>
+        <p>OD / T. Odaira</p>
+      </div>
+      <div className="block-r">
+        <h3>- Info</h3>
         <p>[hundle] OD</p>
-        <p>[age] 19</p>
-        <p>[born] 2001, Yokohama Kanagawa</p>
-        <p>[what I do] University Student, DJ (sometimes)</p>
-        <p>[things I like] Music (listening, making & DJing) / Movies / Coffee</p>
+        <p>[age] 20</p>
+        <p>[born] 2001, Yokohama, Kanagawa</p>
+        <p>[who am I] CS Student, DJ, Music Creator</p>
+        <p>[things I like] Music / Movies / Coffee</p>
+      </div>
     </div>
   );
 }
@@ -36,7 +41,7 @@ const Social = () => {
       <a href="https://github.com/T0-0D" target="_blank">
         <img src={Github} className="social-image" />
         </a>      
-      <a href="https://soundcloud.com/user-967701471" target="_blank">
+      <a href="https://soundcloud.com/music-skynap" target="_blank">
         <img src={Soundcloud} className="social-image" />
       </a>      
       <a href="https://open.spotify.com/user/olg5o8jgpkp8rns2upoq0gn6m?si=f913a86cc5d64448" target="_blank">
@@ -54,6 +59,7 @@ function Home() {
       <ContentBox>
         <AboutText />
       </ContentBox>
+      <Section name="Social"/>
       <ContentBox className="social-box">
         <Social />
       </ContentBox>
