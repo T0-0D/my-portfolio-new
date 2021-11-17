@@ -6,7 +6,7 @@ import ContentBox from './components/ContentBox.js'
 const Development = () => {
   return (
     <div>
-      <h3>開発 Development</h3>
+      <h3>開発 Technologies</h3>
       <p>フロントでReact.jsを、バックでGolangを使用した開発することが目標です<br />GitやShell Scriptも勉強しています</p>
       <p>＜勉強中・興味のある言語＞</p>
       <ul>
@@ -17,7 +17,7 @@ const Development = () => {
         <li>Shell Script</li>
       </ul><br />
       <h3>ビジュアルデザイン Visual Designing</h3>
-      <p>情報が伝わりやすいミニマルデザインの仕組みを勉強中です</p>
+      <p>情報が伝わりやすい視覚的デザインの仕組みを勉強中です</p>
       <p>＜使用ソフト＞<br />Adobe Illustrator / Adobe Photoshop / Microsoft Powerpoint 他</p>
       <ul>
         <li>学生アルバイトとしての大学構内掲示用ポスターの作成（毎月一回程度）</li>
@@ -31,7 +31,7 @@ const Development = () => {
         <li>2021年7月 TOEIC Score: 800 (Highest)</li>
       </ul><br />
       <h3>音声信号処理 Audio Signal Processing </h3>
-      <p>3年次から配属になる研究室では、音声信号を機械学習を用いて処理する研究を行う予定です</p>
+      <p>3年次から配属になる研究室では、音声信号を機械学習を用いて処理する研究を行います</p>
     </div>
   );
 }
