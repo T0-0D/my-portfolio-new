@@ -2,7 +2,7 @@ import './index.css';
 import Section from './components/Section.js'
 import ContentBox from './components/ContentBox.js'
 // 画像ファイルのimport
-import Profile from './images/profile.JPG'
+import Profile from './images/profile.jpg'
 import Twitter from './images/Twitter.png'
 import Instagram from './images/Instagram.png'
 import Github from './images/Github.png'

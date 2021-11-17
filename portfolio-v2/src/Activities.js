@@ -7,7 +7,7 @@ const Development = () => {
   return (
     <div>
       <h3>開発 Development</h3>
-      <p>フロントでReact.jsを、バックでGolangを使用した開発することが目標です<br />Gitの活用やShell Scriptにも興味があります</p>
+      <p>フロントでReact.jsを、バックでGolangを使用した開発することが目標です<br />GitやShell Scriptも勉強しています</p>
       <p>＜勉強中・興味のある言語＞</p>
       <ul>
         <li>JavaScript 特に React.js</li>
@@ -17,7 +17,7 @@ const Development = () => {
         <li>Shell Script</li>
       </ul><br />
       <h3>ビジュアルデザイン Visual Designing</h3>
-      <p>情報が伝わりやすいミニマルデザインを目標に、視覚的デザインを勉強中です</p>
+      <p>情報が伝わりやすいミニマルデザインの仕組みを勉強中です</p>
       <p>＜使用ソフト＞<br />Adobe Illustrator / Adobe Photoshop / Microsoft Powerpoint 他</p>
       <ul>
         <li>学生アルバイトとしての大学構内掲示用ポスターの作成（毎月一回程度）</li>

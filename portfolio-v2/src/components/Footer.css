@@ -3,6 +3,16 @@
     margin-bottom: 40px;
 }
 
+.footerContents {
+    margin-bottom: 10px;
+}
+
 .footer a {
     text-decoration: underline;
+    transition: 0.3s;
+}
+.footer a:hover{
+    border-radius: 4px;
+    background-color : #ddd;
+    color: #4b4b4b;
 }
