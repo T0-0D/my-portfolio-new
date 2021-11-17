@@ -1,16 +1,16 @@
 # My Portfolio Ver.2
 
-## 🍊Website Link (GitHub Pages)🔗
+## 🕊 Website Link (GitHub Pages)🔗
 * WIP
 
-## 🍊概要
-* React.jsを利用して作った Portfolioです
-* React.jsの学習・及び自分の様々な活動をまとめるために作りました
+## 🕊 概要
+* React.js を利用して作ったPortfolio です
+* React.js の学習目的で作りました
 * HTMLとCSSのみで作ったPortfolioのVer.1はこちら -> https://github.com/T0-0D/my-portfolio-v1
 
-## 🍊使用言語・開発環境
+## 🕊 使用言語・開発環境
 * React.js
-* NPM
-* Yarn
+* npm
+* yarn
 * HTML & CSS
-* VS CODE (Visual Sudio Code)
+* Visual Sudio Code
