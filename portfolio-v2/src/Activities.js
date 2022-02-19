@@ -25,13 +25,10 @@ const Development = () => {
         <li>Microsoft Powerpointでの会議資料作成</li>
         </ul><br />
       <h3>言語習得（英語） Linguistic (English)</h3>
-      <p>大学2年ごろから「英語を毎日話す」を目標に英語の習得に励んでいます</p>
       <ul>
         <li>2021年4月〜 会津大学 "Global Lounge" Student Assistant (学生アルバイト）</li>
-        <li>2021年7月 TOEIC Score: 800 (Highest)</li>
-      </ul><br />
-      <h3>音声信号処理 Audio Signal Processing </h3>
-      <p>3年次から配属になる研究室では、音声信号を機械学習を用いて処理する研究を行います</p>
+        <li>Latest TOEIC Score: 800 (Highest)</li>
+      </ul>
     </div>
   );
 }
