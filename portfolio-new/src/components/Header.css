@@ -1,0 +1,54 @@
+header {
+    margin: 0;
+    padding: 40px 20px;
+    width: 100%;
+    height: 96px;
+    /* 位置を上部に固定 */
+    position: fixed;
+    top: 0;
+    /* headerの子要素を整列 */
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+
+a {
+    text-decoration: none;
+    color: #4b4b4b;
+    transition: color 0.3s;
+}
+.titlePages:hover{
+    color : #ff7043;
+}
+
+.titleBig {
+    padding: 4px;
+    transition: 0.3s;
+}
+.titleBig:hover{
+    border-radius: 4px;
+    background-color : #ddd;
+    color: #4b4b4b;
+}
+
+.titlePages-group {
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+
+li {
+    margin: 0 0 0 20px;
+    font-size: 18px;
+}
+
+nav {
+    margin: 0 0 0 auto;
+}
