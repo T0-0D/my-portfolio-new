@@ -1,17 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+//注意: react-router-domはver.^5.3.0を指定してインストールしないと動かない！
+import { BrowserRouter, Route, Switch} from 'react-router-dom';
+
+import Header from './components/Header';
+import Home from './Home';
+import Projects from './Projects';
+import Activities from './Activities';
+import './index.css';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <BrowserRouter>
+        <Header />
+        <Route exact path="/" component={Home} />
+        <Route path="/Projects" component={Projects} />
+        <Route path="/Activities" component={Activities} />
+      </BrowserRouter> 
   </React.StrictMode>,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
