@@ -14,12 +14,12 @@ import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
-      <BrowserRouter>
-        <Header />
-        <Route exact path="/" component={Home} />
-        <Route path="/Projects" component={Projects} />
-        <Route path="/Activities" component={Activities} />
-      </BrowserRouter> 
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <Header />
+      <Route exact path="/" component={Home} />
+      <Route path="/Projects" component={Projects} />
+      <Route path="/Activities" component={Activities} />
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
