@@ -1,3 +1,4 @@
+import PageTitle from './components/PageTitle';
 import ContentBox from './components/ContentBox';
 import SectionTitle from './components/SectionTitle';
 
@@ -18,6 +19,10 @@ export default function Home() {
     
     return (
         <div>
+            <PageTitle 
+                PageTitle="Hi there."
+                PageDescription="Here's brief introduction about myself."
+            />
             <ContentBox>
                 <About />
             </ContentBox>

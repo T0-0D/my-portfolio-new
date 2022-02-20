@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 
-//注意: react-router-domはver.^5.3.0を指定してインストールしないと動かない！
+//注意: react-router-domはver.^5.3.0を指定してインストールしないとrouteが動かない
 import { BrowserRouter, Route, Switch} from 'react-router-dom';
 
 import Header from './components/Header';

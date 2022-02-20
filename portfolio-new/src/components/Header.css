@@ -9,8 +9,6 @@ header {
     /* headerの子要素を整列 */
     display: flex;
     align-items: center;
-    background-color: #478ac9;
-    box-shadow: 0 10px 40px -2px rgba(0,0,0,0.2);
 }
 
 
@@ -56,7 +54,7 @@ a {
 li {
     text-align: center;
     margin: 0 16px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
 }
 
