@@ -1,4 +1,5 @@
 import PageTitle from './components/PageTitle';
+import Tabs from './components/Tabs.js'
 import ContentBox from './components/ContentBox';
 import SectionTitle from './components/SectionTitle';
 
@@ -23,9 +24,7 @@ export default function Home() {
                 PageTitle="Hi there."
                 PageDescription="Here's brief introduction about myself."
             />
-            <ContentBox>
-                <About />
-            </ContentBox>
+            <Tabs />
         </div>
     );
 
