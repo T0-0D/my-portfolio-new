@@ -3,6 +3,20 @@ import Tabs from './components/Tabs.js'
 import ContentBox from './components/ContentBox';
 import SectionTitle from './components/SectionTitle';
 
+
+function homeTabs(props) {
+
+    return (
+        <div className="homeTabs">
+            <button type="button" className="btn-homeTabs">
+                {props.tab1Name}
+            </button>
+        </div>
+    );
+
+}
+
+
 function About(){
     
     return(
@@ -16,7 +30,7 @@ function About(){
 }
 
 
-export default function Home() {
+export default function Home(component) {
     
     return (
         <div>
@@ -24,7 +38,7 @@ export default function Home() {
                 PageTitle="Hi there."
                 PageDescription="Here's brief introduction about myself."
             />
-            <Tabs />
+            <Tabs tab1Name="About" tab2Name="History" tab3Name="Thngs I do/like "/>
         </div>
     );
 

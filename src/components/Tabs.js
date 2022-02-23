@@ -1,9 +1,16 @@
 import "./Tabs.css"
 
-export default function Tabs() {
-    return(
+function setTab(props) {
+    console.log(props);
+}
+
+export default function Tabs(props) {
+    return (
         <div className="tabs">
-            aaa
+            <button className="tab" onClick={setTab()}>
+                {props.tab1Name}
+            </button>
+
         </div>
     );
 }
