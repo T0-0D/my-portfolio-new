@@ -50,14 +50,14 @@ const HeaderNav = (props) => {
 
 
 // main関数
-function Header () {
+export default function Header () {
+
     const param = useLocation().pathname;
-    console.log({param});
     return (
         <header>
             <HeaderTitle />
             <HeaderNav page={param} />
         </header>
     );
+
 }
-export default Header;
