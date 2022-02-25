@@ -12,5 +12,5 @@
 * React.js
 * npm
 * yarn
-* HTML & CSS
+* HTML / CSS
 * Visual Sudio Code
