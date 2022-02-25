@@ -13,7 +13,7 @@
     "react-scripts": "5.0.0",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://t0-0d.github.io/portfolio-new/",
+  "homepage": "https://t0-0d.github.io/react-portfolio/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "npm run build && gh-pages -d build",

@@ -4,7 +4,7 @@ import ContentBox from './components/ContentBox';
 import SectionTitle from './components/SectionTitle';
 
 
-function homeTabs(props) {
+function startButton(props) {
 
     return (
         <div className="homeTabs">
@@ -35,10 +35,10 @@ export default function Home(component) {
     return (
         <div>
             <PageTitle 
-                PageTitle="Hi there."
-                PageDescription="Here's brief introduction about myself."
+                PageTitle="Hi there." 
+                PageDescription="Here's brief introduction about myself." 
             />
-            <Tabs tab1Name="About" tab2Name="History" tab3Name="Thngs I do/like "/>
+            <startButton tab1Name="Start"/>
         </div>
     );
 
