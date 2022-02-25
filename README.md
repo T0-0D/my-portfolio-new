@@ -1,4 +1,4 @@
-# My React Portfolio
+# React Portfolio
 
 ## 🕊 Website Link
 * GitHub Pages: https://t0-0d.github.io/portfolio-new/
