@@ -2,7 +2,7 @@ import Iframe from 'react-iframe';
 
 import "./Activities.css"
 import ContentBox from "./components/ContentBox";
-import sectionTitle from "./components/SectionTitle";
+import sectionTitle from "./components/Section";
 
 
 function MusicContents(){
