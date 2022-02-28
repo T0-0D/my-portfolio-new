@@ -5,46 +5,46 @@ import './Header.css'
 
 const HeaderTitle = () => {
     return(
-    <h1>
-        <a href="../" className="titleBig">PORTFOLIO test</a>
-    </h1>
+        <h1 className="headerLeft">
+            <a href="../" className="headerTitleBig">PORTFOLIO</a>
+        </h1>
     )
 }
 
 
 const HeaderNav = (props) => {
     return(
-        <nav>
-            <ul className="titlePages-group">
+        <div className="headerRight">
+            <ul className="headerTitleTabs-group">
                 <li>
                     <a href="./"
-                    className="titlePages">
+                    className="headerTitleTabs">
                         Home
                     </a>
-                    {props.page == "/" && ( // ページマーカー
-                        <div class="circle"></div>
+                    {props.page === "/" && ( // ページマーカー
+                        <div class="headerTitleTabs-marker"></div>
                     )}
                 </li>
                 <li>
                     <a href="./Projects"
-                    className="titlePages">
+                    className="headerTitleTabs">
                         Projects
                     </a>
-                    {props.page == "/Projects" && ( // ページマーカー
-                        <div class="circle"></div>
+                    {props.page === "/Projects" && ( // ページマーカー
+                        <div class="headerTitleTabs-marker"></div>
                     )}
                 </li>
                 <li>
                     <a href="./Activities"
-                    className="titlePages">
+                    className="headerTitleTabs">
                         Activities
                     </a>
-                    {props.page == "/Activities" && ( // ページマーカー
-                        <div class="circle"></div>
+                    {props.page === "/Activities" && ( // ページマーカー
+                        <div class="headerTitleTabs-marker"></div>
                     )}
                 </li>
             </ul>
-        </nav>
+        </div>
     )
 }
 
@@ -54,7 +54,7 @@ export default function Header () {
 
     const param = useLocation().pathname;
     return (
-        <header>
+        <header id="pageHeader">
             <HeaderTitle />
             <HeaderNav page={param} />
         </header>
