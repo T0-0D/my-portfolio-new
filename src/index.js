@@ -17,9 +17,11 @@ ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Header />
-        <Route exact path="/" component={Home} />
-        <Route path="/Projects" component={Projects} />
-        <Route path="/Activities" component={Activities} />
+        <div className="pageBody">
+          <Route exact path="/" component={Home} />
+          <Route exact path="/Projects" component={Projects} />
+          <Route exact path="/Activities" component={Activities} />
+        </div>
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
