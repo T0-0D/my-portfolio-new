@@ -51,6 +51,34 @@ function About() {
 }
 
 
+function Skills() {
+
+    return (
+        <div>
+            <Section title="Skills & Interests">
+                <div id='skills' className='sectionContents'>
+                    <div className='skills-left'>
+                        <h3>Technology</h3>
+                        <p>JavaScript (React.js / Node.js / GAS)</p>
+                        <p>Firebase</p>
+                        <p>HTML / CSS</p>
+                        <p>Shell Script / CLI</p>
+                        <p>Haskell (for learning)</p>
+                        <p>Git / GitHub</p>
+                    </div>
+                    <div className='skills-left'>
+                        <h3>Other</h3>
+                        <p>TOEIC L&R: <span className='textBold'>800</span>（2021年7月）</p>
+                        <p>TOEIC Speaking: <span className='textBold'>130</span>（2021年3月）</p>
+                        <p>Visual Design（Adobe Illustratorなど）</p>
+                    </div>
+                </div>
+            </Section>
+        </div>
+    );
+}
+
+
 function History() {
     const LinkedText = (props) => {
         return (
@@ -68,50 +96,27 @@ function History() {
             <Section title="History / Experience">
                 <div className='sectionContents'>
                     <div className='history-left'>
-                        <p className='content-left'>- 2020年3月</p>
+                        <p className='content-left'>2020年3月</p>
+                        <p className='content-left'>2020年4月</p>
                         <p className='content-left'>2020年4月 - Now</p>
                         <p className='content-left'>2021年4月 - Now</p>
                         <p className='content-left'>2021年12月 - Now</p>
                     </div>
                     <div className='history-right'>
-                        <p className='content-right'>横浜市立高校</p>
+                        <p className='content-right'>横浜市立高校 卒業</p>
+                        <p className='content-right'>福島県会津若松市に移住</p>
                         <p className='content-right'>
                             <LinkedText link='https://www.u-aizu.ac.jp/' name='会津大学 コンピュータ理工学部 コンピュータ理工学科' />
+                            &nbsp;在籍
                         </p>
                         <p className='content-right'>
                             <LinkedText link='https://www.u-aizu.ac.jp/osip/abroad/gl.html' name='会津大学 Global Lounge' />
-                            &nbsp; - Student Assistant
+                            &nbsp;- Student Assistant
                         </p>
                         <p className='content-right'>
                             <LinkedText link='https://www.nowhere.co.jp/#' name='株式会社 Eyes, Japan' />
                             &nbsp;- アルバイト
                         </p>
-                    </div>
-                </div>
-            </Section>
-        </div>
-    );
-}
-
-
-function Skills() {
-
-    return (
-        <div>
-            <Section title="Skills & Interests">
-                <div id='skills' className='sectionContents'>
-                    <div className='skills-left'>
-                        <h3>Technology</h3>
-                        <p>Javascript (React.js / Node.js / GAS)</p>
-                        <p>Firebase</p>
-                        <p>HTML / CSS</p>
-                        <p>Shell / CLI</p>
-                        <p>Git / GitHub</p>
-                    </div>
-                    <div className='skills-left'>
-                        <h3>Other</h3>
-                        <p>TOEIC L&R: <span className='textBold'>800</span>（2021年7月）</p>
-                        <p>TOEIC Speaking: <span className='textBold'>130</span>（2021年3月）</p>
                     </div>
                 </div>
             </Section>
