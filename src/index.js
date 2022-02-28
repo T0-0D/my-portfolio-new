@@ -7,7 +7,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 
 import Header from './components/Header';
 import Home from './Home';
-import Projects from './Projects';
+import Projects from './Technologies';
 import Activities from './Activities';
 import './index.css';
 
@@ -17,10 +17,10 @@ ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Header />
-        <div className="pageBody">
-          <Route exact path="/" component={Home} />
-          <Route exact path="/Projects" component={Projects} />
-          <Route exact path="/Activities" component={Activities} />
+        <div id='pageBody'>
+          <Route exact path='/' component={Home} />
+          <Route exact path='/Projects' component={Projects} />
+          <Route exact path='/Activities' component={Activities} />
         </div>
     </BrowserRouter>
   </React.StrictMode>,

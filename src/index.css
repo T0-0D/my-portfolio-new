@@ -12,9 +12,8 @@ body {
   color: #fff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
   /* 背景の設定 */
-  background :linear-gradient(#478ac9, #5ab4e5, #fff);
+  background:linear-gradient(#478ac9, #5ab4e5, #5ab4e5, #fff);
   background-position: center center; /* 画像を中央に配置 */
   background-repeat: no-repeat; /* 背景を繰り返さない */
   background-attachment: fixed; /* 背景を固定 */
@@ -23,4 +22,9 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+#pageBody {
+  padding: 50px 40px 600px 40px;
+  text-align: center;
 }

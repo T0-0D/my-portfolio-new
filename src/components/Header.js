@@ -21,7 +21,7 @@ const HeaderNav = (props) => {
                     className="headerTitleTabs">
                         Home
                     </a>
-                    {props.page == "/" && ( // ページマーカー
+                    {props.page === "/" && ( // ページマーカー
                         <div class="headerTitleTabs-marker"></div>
                     )}
                 </li>
@@ -30,7 +30,7 @@ const HeaderNav = (props) => {
                     className="headerTitleTabs">
                         Projects
                     </a>
-                    {props.page == "/Projects" && ( // ページマーカー
+                    {props.page === "/Projects" && ( // ページマーカー
                         <div class="headerTitleTabs-marker"></div>
                     )}
                 </li>
@@ -39,7 +39,7 @@ const HeaderNav = (props) => {
                     className="headerTitleTabs">
                         Activities
                     </a>
-                    {props.page == "/Activities" && ( // ページマーカー
+                    {props.page === "/Activities" && ( // ページマーカー
                         <div class="headerTitleTabs-marker"></div>
                     )}
                 </li>
