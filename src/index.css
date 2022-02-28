@@ -8,12 +8,12 @@ body {
 
   /* フォントの設定 */
   font-family:  sans-serif, "Helvetica Neue", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "MS Pゴシック", Helvetica, Arial;
-  font-size: 18px;
+  font-size: 20px;
   color: #fff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* 背景の設定 */
-  background:linear-gradient(#478ac9, #5ab4e5, #5ab4e5, #fff);
+  background: linear-gradient(#146fd0, #146fd0, #478ac9, #5ab4e5, #fff);
   background-position: center center; /* 画像を中央に配置 */
   background-repeat: no-repeat; /* 背景を繰り返さない */
   background-attachment: fixed; /* 背景を固定 */
@@ -25,6 +25,24 @@ code {
 }
 
 #pageBody {
-  padding: 50px 40px 600px 40px;
+  padding: 50px 40px 300px 40px;
   text-align: center;
+}
+
+p {
+  margin: 16px 0;
+}
+
+.textBold {
+  font-weight: bold;
+}
+
+a.linkedText {
+  border-bottom: solid 0.9px #fff;
+}
+
+a.linkedText:hover{
+  border-radius: 4px;
+  color: #4b4b4b;
+  border-bottom: solid 0.9px #4b4b4b;
 }
