@@ -5,9 +5,9 @@ import './Header.css'
 
 const HeaderTitle = () => {
     return(
-    <div className="headerLeft">
-        <a href="../" className="headerTitleBig">PORTFOLIO</a>
-    </div>
+        <h1 className="headerLeft">
+            <a href="../" className="headerTitleBig">PORTFOLIO</a>
+        </h1>
     )
 }
 
