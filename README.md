@@ -13,3 +13,4 @@
 * yarn
 * HTML / CSS
 * Visual Sudio Code
+* Firebase / GitHub Actions
