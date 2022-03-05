@@ -14,3 +14,6 @@
 * HTML / CSS
 * Visual Sudio Code
 * Firebase / GitHub Actions
+
+## その他
+* 3月中までに完成予定
