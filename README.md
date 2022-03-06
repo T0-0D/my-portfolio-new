@@ -9,11 +9,10 @@
 
 ## 🕊 使用言語・開発環境 Language & Environment
 * React.js
-* npm
-* yarn
-* HTML / CSS
+* node.js / yarn
+* CSS
 * Visual Sudio Code
 * Firebase / GitHub Actions
 
 ## その他
-* 3月中までに完成予定
+* 3月中までに完成目標
